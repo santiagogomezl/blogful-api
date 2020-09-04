@@ -1,4 +1,4 @@
-UPDATE noteful_folders SET id = DEFAULT
+UPDATE noteful_folders SET id = DEFAULT;
 
 INSERT INTO noteful_folders (name)
 VALUES
@@ -6,7 +6,7 @@ VALUES
   ('Super'),
   ('Test');
 
-UPDATE noteful_notes SET id = DEFAULT
+UPDATE noteful_notes SET id = DEFAULT;
 
 INSERT INTO noteful_notes (name, folder_id, content)
 VALUES
